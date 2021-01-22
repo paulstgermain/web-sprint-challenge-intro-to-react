@@ -1,8 +1,16 @@
-.App {
-  text-align: center;
-}
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  font-family: Schwifty;
+  font-size: 42px;
+  text-align: center;
+  color: seagreen;
+  text-shadow: 1px 1px 3px greenyellow;
+  height: 75px;
+  width: 100%;
 }
 /* write your parent styles in here for your App.js */
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
